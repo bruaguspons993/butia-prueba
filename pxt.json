@@ -1,21 +1,38 @@
 {
-    "name": "butia-prueba",
-    "description": "",
+    "name": "butia-microbit-extension",
+    "version": "0.1.0",
+    "description": "MakeCode extension for the Butia v4 educational robotics kit — imperative and event-based block paradigms.",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
+        "src/blocks/imperative.ts",
+        "src/core/connector.ts",
+        "src/core/constants.ts",
+        "src/core/event-monitor.ts",
+        "src/core/robot-base.ts",
+        "src/hardware/butia-robot.ts",
+        "src/hardware/button-sensor-butia.ts",
+        "src/hardware/distance-sensor-butia.ts",
+        "src/hardware/gpio-motor-driver.ts",
+        "src/hardware/gray-sensor-butia.ts",
+        "src/hardware/light-sensor-butia.ts",
+        "src/main.ts",
+        "src/robotdriver.ts",
+        "src/types/components.d.ts",
+        "src/types/enums.d.ts",
+        "src/types/robot.d.ts",
         "README.md"
     ],
     "testFiles": [
-        "test.ts"
+        "test/_mocks.ts",
+        "test/event-monitor.test.ts",
+        "test/mock.test.ts",
+        "test/robot.test.ts",
+        "test/sensor.test.ts"
     ],
     "targetVersions": {
-        "target": "8.0.22",
+        "target": "8.0.21",
         "targetId": "microbit"
     },
     "supportedTargets": [

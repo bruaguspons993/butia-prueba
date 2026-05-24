@@ -1,0 +1,40 @@
+{
+  "name": "butia-microbit-extension",
+  "version": "1.0.0",
+  "description": "MakeCode extension for programming the Butia v4 educational robotics kit using micro:bit.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butia4/butia-microbit-extension.git"
+  },
+  "keywords": [
+    "microbit",
+    "makecode",
+    "pxt",
+    "butia",
+    "robotics"
+  ],
+  "author": "Butia Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butia4/butia-microbit-extension/issues"
+  },
+  "homepage": "https://github.com/butia4/butia-microbit-extension#readme",
+  "scripts": {
+    "postinstall": "node -e \"require('fs').writeFileSync('node_modules/pxtcli.json', JSON.stringify({targetdir:'pxt-microbit'}))\"",
+    "setup": "pxt install",
+    "build": "pxt build",
+    "test": "pxt test",
+    "deploy": "pxt deploy",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "sync": "npx tsx scripts/sync-pxt.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.2.1",
+    "pxt-microbit": "^8.1.12",
+    "typescript": "^6.0.3"
+  }
+}

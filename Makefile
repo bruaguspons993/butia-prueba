@@ -1,4 +1,4 @@
-all: deploy
+all: build
 
 build:
 	pxt build
@@ -8,3 +8,9 @@ deploy:
 
 test:
 	pxt test
+
+lint:
+	npm run lint
+
+clean:
+	rm -rf built/
