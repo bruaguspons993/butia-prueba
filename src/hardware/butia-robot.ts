@@ -35,6 +35,8 @@ namespace Butia {
         }
         start(): void {
             super.start();
+            registerSim();
+            startSendSimLoop();
         }
     }
 

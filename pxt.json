@@ -19,6 +19,8 @@
         "src/hardware/light-sensor-butia.ts",
         "src/main.ts",
         "src/robotdriver.ts",
+        "src/sim/protocol.ts",
+        "src/sim/sim-bridge.ts",
         "src/types/components.d.ts",
         "src/types/enums.d.ts",
         "src/types/robot.d.ts",
@@ -38,5 +40,6 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "simUrl": "https://bruaguspons993.github.io/butia-prueba/"
 }

@@ -4,7 +4,7 @@
   "description": "MakeCode extension for programming the Butia v4 educational robotics kit using micro:bit.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/butia4/butia-microbit-extension.git"
+    "url": "git+https://github.com/bruaguspons993/butia-prueba.git"
   },
   "keywords": [
     "microbit",
@@ -16,9 +16,9 @@
   "author": "Butia Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/butia4/butia-microbit-extension/issues"
+    "url": "https://github.com/bruaguspons993/butia-prueba/issues"
   },
-  "homepage": "https://github.com/butia4/butia-microbit-extension#readme",
+  "homepage": "https://github.com/bruaguspons993/butia-prueba#readme",
   "scripts": {
     "postinstall": "node -e \"require('fs').writeFileSync('node_modules/pxtcli.json', JSON.stringify({targetdir:'pxt-microbit'}))\"",
     "setup": "pxt install",

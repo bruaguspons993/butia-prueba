@@ -50,8 +50,8 @@ Before getting started, ensure the following tools are installed on your system:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/butia4/butia-microbit-extension.git
-cd butia-microbit-extension
+git clone https://github.com/bruaguspons993/butia-prueba.git
+cd butia-prueba
 ```
 
 ### 2. Install npm dependencies
@@ -147,7 +147,7 @@ For classroom use or when you just want to use the extension without building fr
 3. Go to ⚙ → **Extensions**
 4. Search for or paste:
    ```
-   https://github.com/butia4/butia-microbit-extension
+   https://github.com/bruaguspons993/butia-prueba
    ```
 5. Click **Import**
 
@@ -158,7 +158,7 @@ The extension is now ready to use in your project.
 ## Project Structure
 
 ```
-butia-microbit-extension/
+butia-prueba/
 ├── src/
 │   ├── main.ts                     # Runtime entry point
 │   ├── types/

@@ -1,6 +1,9 @@
 all: build
 
-build:
+sim:
+	cd botsim && npm run build
+
+build: sim
 	pxt build
 
 deploy:
