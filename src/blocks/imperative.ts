@@ -1,6 +1,15 @@
 //% color="#84c324" icon="\uf410"
-//% groups="['Sensores', 'Motores']"
+//% groups="['Simulador', 'Sensores', 'Motores']"
 namespace Butia {
+
+    //% blockId="butia_start_sim"
+    //% block="Iniciar simulador"
+    //% weight=200
+    //% group="Simulador"
+    export function startSimulator(): void {
+        Butia.registerSim();
+        Butia.startSendSimLoop();
+    }
 
     //% blockId="butia_imp_move_forward"
     //% block="Avanzar a velocidad %speed || durante %duration segundos"
